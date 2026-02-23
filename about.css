@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #F5F1EA;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 60px;
+    background-color: #F5F1EA;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #3746D0;
+    font-size: 18px;
+    font-weight: 500;
+    transition: opacity 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    opacity: 0.7;
+}
+
+.about-container {
+    flex: 1;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 60px 80px;
+    width: 100%;
+}
+
+.about-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #3746D0;
+    margin-bottom: 40px;
+    line-height: 1.4;
+}
+
+.teks-perkenalan {
+    color: #3746D0;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 60px;
+}
+
+.teks-perkenalan p {
+    margin-bottom: 24px;
+    text-align: justify;
+}
+
+.poto-profil {
+    display: flex;
+    justify-content: center;
+}
+
+.poto-profil img {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+.bawah {
+    background-color: #D9D9D9;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+
+.kata-kata {
+    font-size: 48px;
+    font-weight: 700;
+    color: #3746D0;
+    font-family: Georgia, serif;
+    font-style: italic;
+}

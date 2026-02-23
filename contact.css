@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #F5F1EA;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 60px;
+    background-color: #F5F1EA;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #3746D0;
+    font-size: 18px;
+    font-weight: 500;
+    transition: opacity 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    opacity: 0.7;
+}
+
+.contact-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.atas {
+    font-size: 72px;
+    font-weight: 400;
+    color: #3746D0;
+    margin-bottom: 60px;
+    font-style: italic;
+}
+
+.logonya {
+    display: flex;
+    gap: 60px;
+    margin-bottom: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pencet-aja {
+    display: block;
+    color: #3746D0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    text-decoration: none;
+}
+
+.pencet-aja:hover {
+    transform: translateY(-8px);
+    opacity: 0.8;
+}
+
+.pencet-aja svg {
+    display: block;
+    color: inherit;
+    stroke: currentColor;
+    fill: none;
+}
+
+.tanda-tambah {
+    max-width: 800px;
+    color: #3746D0;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.tanda-tambah p {
+    margin-bottom: 15px;
+}
+
+.bawah {
+    background-color: #D9D9D9;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kata-kata {
+    font-size: 48px;
+    font-weight: 700;
+    color: #3746D0;
+    font-family: Georgia, serif;
+    font-style: italic;
+}

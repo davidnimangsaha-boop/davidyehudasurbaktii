@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #F5F1EA;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 60px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #3746D0;
+    font-size: 18px;
+    font-weight: 500;
+    transition: opacity 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    opacity: 0.7;
+}
+
+.perkenalan {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 40px;
+}
+
+.atas {
+    font-size: 48px;
+    font-weight: 400;
+    color: #3746D0;
+    margin-bottom: 10px;
+}
+
+.tengah {
+    font-size: 72px;
+    font-weight: 700;
+    color: #3746D0;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+
+.bawah1 {
+    font-size: 48px;
+    font-weight: 400;
+    color: #3746D0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.lingkaran {
+    display: inline-block;
+    padding: 8px 30px;
+    border: 2px solid #3746D0;
+    border-radius: 50px;
+    font-weight: 500;
+}
